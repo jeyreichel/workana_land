@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cleanflex — Higiene en Movimiento</title>
+  <meta name="description" content="Cleanflex: pañitos húmedos antibacteriales individuales en formato sachet. Higiene en movimiento para restaurantes, hoteles, eventos y personas con estilo de vida dinámico.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-clean">Clean</span><span class="logo-flex">flex</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#origen">Origen</a></li>
+        <li><a href="#versatilidad">Versatilidad</a></li>
+        <li><a href="#producto">Producto</a></li>
+        <li><a href="#beneficios">Beneficios</a></li>
+        <li><a href="#planes">Planes</a></li>
+        <li><a href="#contacto" class="nav-cta">Contáctanos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Section 1: Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-tagline fade-up">Higiene en movimiento</p>
+        <h1 class="hero-title fade-up delay-1">
+          Cleanflex para<br>
+          <span class="rotating-text-wrapper">
+            <span class="rotating-text" id="rotatingText"></span>
+            <span class="rotating-cursor">|</span>
+          </span>
+        </h1>
+        <p class="hero-description fade-up delay-2">
+          Pañitos húmedos antibacteriales individuales en formato sachet.
+          Diseñados para quienes no dejan la higiene al azar.
+        </p>
+        <div class="hero-buttons fade-up delay-3">
+          <a href="#planes" class="btn btn-primary">Ver Planes</a>
+          <a href="#producto" class="btn btn-outline">Conoce el Producto</a>
+        </div>
+      </div>
+      <div class="hero-visual fade-up delay-2">
+        <div class="hero-sachet">
+          <div class="sachet-glow"></div>
+          <div class="sachet-card">
+            <div class="sachet-inner">
+              <span class="sachet-brand">Cleanflex</span>
+              <span class="sachet-type">Antibacterial</span>
+              <div class="sachet-badge">Individual</div>
+            </div>
+          </div>
+          <div class="floating-badge badge-1">99.9% bacterias</div>
+          <div class="floating-badge badge-2">Sachet individual</div>
+          <div class="floating-badge badge-3">Portátil</div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Descubre más</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- Section 2: Origen y propósito -->
+  <section class="section section-origin" id="origen">
+    <div class="container">
+      <div class="origin-grid">
+        <div class="origin-visual reveal-left">
+          <div class="origin-image-card">
+            <div class="origin-icon-grid">
+              <div class="origin-icon-item">
+                <div class="icon-circle">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+                </div>
+                <span>Innovación</span>
+              </div>
+              <div class="origin-icon-item">
+                <div class="icon-circle">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                </div>
+                <span>Protección</span>
+              </div>
+              <div class="origin-icon-item">
+                <div class="icon-circle">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+                </div>
+                <span>Colombia</span>
+              </div>
+              <div class="origin-icon-item">
+                <div class="icon-circle">
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                </div>
+                <span>Cuidado</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="origin-text reveal-right">
+          <span class="section-label">Nuestro Origen</span>
+          <h2 class="section-title">Nacimos de una necesidad <em>real</em></h2>
+          <p class="section-description">
+            En Colombia, la higiene personal fuera de casa siempre fue un desafío resuelto con soluciones genéricas.
+            Cleanflex nació para cambiar eso: somos la primera marca que entiende la limpieza como parte de tu estilo de vida,
+            no como un producto de emergencia.
+          </p>
+          <p class="section-description">
+            Creamos un pañito húmedo antibacterial individual, en formato sachet compacto y elegante,
+            pensado para quienes se mueven por el mundo sin dejar nada al azar.
+          </p>
+          <div class="origin-stats">
+            <div class="stat-item">
+              <span class="stat-number" data-count="99.9">0</span><span class="stat-suffix">%</span>
+              <span class="stat-label">Eliminación de bacterias</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" data-count="100">0</span><span class="stat-suffix">%</span>
+              <span class="stat-label">Hecho en Colombia</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3: Versatilidad -->
+  <section class="section section-versatility" id="versatilidad">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Versatilidad</span>
+        <h2 class="section-title">Un producto, <em>mil contextos</em></h2>
+        <p class="section-subtitle">Cleanflex se adapta a cada momento de tu día.</p>
+      </div>
+      <div class="versatility-grid">
+        <div class="versatility-card reveal-up" style="--delay: 0s">
+          <div class="v-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+          </div>
+          <h3>Restaurantes</h3>
+          <p>Eleva la experiencia de tus comensales con un detalle de higiene premium en cada mesa.</p>
+        </div>
+        <div class="versatility-card reveal-up" style="--delay: 0.1s">
+          <div class="v-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+          </div>
+          <h3>Hoteles</h3>
+          <p>Amenidades que hablan de cuidado y atención al detalle en cada habitación y espacio común.</p>
+        </div>
+        <div class="versatility-card reveal-up" style="--delay: 0.2s">
+          <div class="v-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Eventos</h3>
+          <p>Conciertos, ferias, bodas y conferencias. Higiene accesible para cada asistente.</p>
+        </div>
+        <div class="versatility-card reveal-up" style="--delay: 0.3s">
+          <div class="v-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"/><polygon points="23 7 16 12 16 3 23 7"/><line x1="1" y1="20" x2="23" y2="20"/></svg>
+          </div>
+          <h3>Food Trucks</h3>
+          <p>La solución perfecta para comida callejera con estándares de higiene profesional.</p>
+        </div>
+        <div class="versatility-card reveal-up" style="--delay: 0.4s">
+          <div class="v-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polygon points="10 8 16 12 10 16 10 8"/></svg>
+          </div>
+          <h3>Gimnasios</h3>
+          <p>Frescura después de cada rutina. Compacto, práctico y siempre listo en tu maleta.</p>
+        </div>
+        <div class="versatility-card reveal-up" style="--delay: 0.5s">
+          <div class="v-card-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          </div>
+          <h3>Oficinas</h3>
+          <p>Mantén un espacio de trabajo limpio y profesional con sachets disponibles para todo el equipo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 4: El Producto -->
+  <section class="section section-product" id="producto">
+    <div class="container">
+      <div class="product-grid">
+        <div class="product-text reveal-left">
+          <span class="section-label">El Producto</span>
+          <h2 class="section-title">Diseño que comunica <em>calidad</em></h2>
+          <p class="section-description">
+            Cada sachet Cleanflex es una declaración de intenciones: higiene premium,
+            portátil y con personalidad. Nada de empaques genéricos ni diseños que parecen
+            de hospital.
+          </p>
+          <ul class="product-features">
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Formato sachet individual</strong>
+                <span>Compacto, higiénico y fácil de transportar</span>
+              </div>
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Fórmula antibacterial</strong>
+                <span>Elimina el 99.9% de las bacterias</span>
+              </div>
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Tela suave y resistente</strong>
+                <span>No se rompe, no irrita, no deja residuos</span>
+              </div>
+            </li>
+            <li>
+              <div class="feature-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+              </div>
+              <div>
+                <strong>Aroma fresco y sutil</strong>
+                <span>Fragancia no invasiva que refresca sin dominar</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="product-visual reveal-right">
+          <div class="product-showcase">
+            <div class="showcase-bg-circle"></div>
+            <div class="product-sachet-large">
+              <div class="sachet-large-inner">
+                <div class="sachet-stripe"></div>
+                <span class="sachet-l-brand">Cleanflex</span>
+                <span class="sachet-l-sub">Antibacterial Wipe</span>
+                <span class="sachet-l-detail">Sachet Individual</span>
+                <div class="sachet-l-badge">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+                  99.9%
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 5: Para quién es -->
+  <section class="section section-audience" id="audiencia">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Para Ti</span>
+        <h2 class="section-title">¿Para quién es <em>Cleanflex</em>?</h2>
+        <p class="section-subtitle">Para quienes entienden que la higiene es parte del estilo.</p>
+      </div>
+      <div class="audience-grid">
+        <div class="audience-card reveal-up" style="--delay: 0s">
+          <div class="audience-emoji">🏢</div>
+          <h3>Negocios HoReCa</h3>
+          <p>Restaurantes, hoteles y cafeterías que quieren ofrecer una experiencia diferenciadora a sus clientes.</p>
+        </div>
+        <div class="audience-card reveal-up" style="--delay: 0.1s">
+          <div class="audience-emoji">🎪</div>
+          <h3>Organizadores de Eventos</h3>
+          <p>Productores de ferias, conciertos, bodas y conferencias que cuidan cada detalle.</p>
+        </div>
+        <div class="audience-card reveal-up" style="--delay: 0.2s">
+          <div class="audience-emoji">🏃</div>
+          <h3>Personas Activas</h3>
+          <p>Viajeros, deportistas y profesionales que necesitan frescura en cualquier momento del día.</p>
+        </div>
+        <div class="audience-card reveal-up" style="--delay: 0.3s">
+          <div class="audience-emoji">🏷️</div>
+          <h3>Marcas y Empresas</h3>
+          <p>Compañías que buscan personalizar sachets con su branding como parte de su estrategia promocional.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 6: Beneficios clave -->
+  <section class="section section-benefits" id="beneficios">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Beneficios</span>
+        <h2 class="section-title">¿Por qué elegir <em>Cleanflex</em>?</h2>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card reveal-up" style="--delay: 0s">
+          <div class="benefit-number">01</div>
+          <h3>Higiene Real</h3>
+          <p>Fórmula antibacterial clínicamente probada que elimina el 99.9% de las bacterias. No es cosmético, es protección.</p>
+        </div>
+        <div class="benefit-card reveal-up" style="--delay: 0.1s">
+          <div class="benefit-number">02</div>
+          <h3>Portabilidad Total</h3>
+          <p>El formato sachet individual cabe en cualquier bolsillo, bolso o cajón. Siempre contigo, sin ocupar espacio.</p>
+        </div>
+        <div class="benefit-card reveal-up" style="--delay: 0.15s">
+          <div class="benefit-number">03</div>
+          <h3>Imagen Premium</h3>
+          <p>Diseño moderno y elegante que eleva la percepción de tu negocio. Nada genérico, todo personalidad.</p>
+        </div>
+        <div class="benefit-card reveal-up" style="--delay: 0.2s">
+          <div class="benefit-number">04</div>
+          <h3>Versatilidad</h3>
+          <p>Funciona en restaurantes, hoteles, eventos, gimnasios, oficinas y en tu vida diaria. Un producto, mil usos.</p>
+        </div>
+        <div class="benefit-card reveal-up" style="--delay: 0.25s">
+          <div class="benefit-number">05</div>
+          <h3>Personalizable</h3>
+          <p>Tu marca en cada sachet. Ofrecemos servicio de maquila y personalización para empresas y eventos.</p>
+        </div>
+        <div class="benefit-card reveal-up" style="--delay: 0.3s">
+          <div class="benefit-number">06</div>
+          <h3>Hecho en Colombia</h3>
+          <p>Producto 100% colombiano. Apoyamos la industria local con los más altos estándares de calidad.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 7: Planes y presentaciones -->
+  <section class="section section-plans" id="planes">
+    <div class="container">
+      <div class="section-header text-center reveal-up">
+        <span class="section-label">Planes</span>
+        <h2 class="section-title">Elige tu <em>presentación</em></h2>
+        <p class="section-subtitle">Tenemos opciones para cada necesidad. Todos los planes incluyen despacho a nivel nacional.</p>
+      </div>
+      <div class="plans-grid">
+        <div class="plan-card reveal-up" style="--delay: 0s">
+          <div class="plan-header">
+            <span class="plan-tag">Personal</span>
+            <h3 class="plan-name">Starter Pack</h3>
+            <p class="plan-desc">Ideal para probar o uso personal</p>
+          </div>
+          <div class="plan-body">
+            <ul class="plan-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                50 sachets individuales
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Presentación estándar Cleanflex
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Envío a nivel nacional
+              </li>
+            </ul>
+            <a href="https://wa.me/573000000000?text=Hola%2C%20me%20interesa%20el%20Starter%20Pack%20de%20Cleanflex" class="btn btn-whatsapp" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="plan-card plan-featured reveal-up" style="--delay: 0.1s">
+          <div class="plan-popular">Más Popular</div>
+          <div class="plan-header">
+            <span class="plan-tag">Negocios</span>
+            <h3 class="plan-name">Business Pack</h3>
+            <p class="plan-desc">Para restaurantes, hoteles y negocios</p>
+          </div>
+          <div class="plan-body">
+            <ul class="plan-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                500 sachets individuales
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Presentación estándar Cleanflex
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Envío gratuito
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Dispensador incluido
+              </li>
+            </ul>
+            <a href="https://wa.me/573000000000?text=Hola%2C%20me%20interesa%20el%20Business%20Pack%20de%20Cleanflex" class="btn btn-whatsapp" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+        <div class="plan-card reveal-up" style="--delay: 0.2s">
+          <div class="plan-header">
+            <span class="plan-tag">Eventos</span>
+            <h3 class="plan-name">Event Pack</h3>
+            <p class="plan-desc">Para eventos y grandes volúmenes</p>
+          </div>
+          <div class="plan-body">
+            <ul class="plan-features">
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                2000+ sachets individuales
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Precio por volumen
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Envío gratuito
+              </li>
+              <li>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                Opción de personalización
+              </li>
+            </ul>
+            <a href="https://wa.me/573000000000?text=Hola%2C%20me%20interesa%20el%20Event%20Pack%20de%20Cleanflex" class="btn btn-whatsapp" target="_blank" rel="noopener">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Pedir por WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 8: Personalización y Maquila -->
+  <section class="section section-custom" id="personalizacion">
+    <div class="container">
+      <div class="custom-grid">
+        <div class="custom-text reveal-left">
+          <span class="section-label">Personalización</span>
+          <h2 class="section-title">Tu marca en cada <em>sachet</em></h2>
+          <p class="section-description">
+            Ofrecemos servicio de maquila y personalización completa. Tu logo, tus colores,
+            tu identidad en un producto de higiene premium que tus clientes recordarán.
+          </p>
+          <div class="custom-steps">
+            <div class="custom-step">
+              <div class="step-number">1</div>
+              <div>
+                <strong>Cuéntanos tu idea</strong>
+                <p>Comparte tu logo, colores y la cantidad que necesitas.</p>
+              </div>
+            </div>
+            <div class="custom-step">
+              <div class="step-number">2</div>
+              <div>
+                <strong>Diseñamos juntos</strong>
+                <p>Nuestro equipo crea el diseño del sachet con tu branding.</p>
+              </div>
+            </div>
+            <div class="custom-step">
+              <div class="step-number">3</div>
+              <div>
+                <strong>Producción y entrega</strong>
+                <p>Fabricamos y enviamos tus sachets personalizados a todo el país.</p>
+              </div>
+            </div>
+          </div>
+          <a href="https://wa.me/573000000000?text=Hola%2C%20me%20interesa%20el%20servicio%20de%20personalizaci%C3%B3n%20de%20Cleanflex" class="btn btn-primary" target="_blank" rel="noopener">
+            Solicitar Personalización
+          </a>
+        </div>
+        <div class="custom-visual reveal-right">
+          <div class="custom-showcase">
+            <div class="custom-sachet" style="--rotate: -8deg; --y: -20px;">
+              <div class="cs-inner cs-brand-1">
+                <span class="cs-logo">Tu Logo</span>
+                <span class="cs-text">Tu Marca Aquí</span>
+              </div>
+            </div>
+            <div class="custom-sachet" style="--rotate: 4deg; --y: 10px;">
+              <div class="cs-inner cs-brand-2">
+                <span class="cs-logo">Brand</span>
+                <span class="cs-text">Personalizado</span>
+              </div>
+            </div>
+            <div class="custom-sachet" style="--rotate: -2deg; --y: -5px;">
+              <div class="cs-inner cs-brand-3">
+                <span class="cs-logo">Evento</span>
+                <span class="cs-text">Edición Especial</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 9: Cierre y contacto -->
+  <section class="section section-contact" id="contacto">
+    <div class="container">
+      <div class="contact-content text-center reveal-up">
+        <span class="section-label">Contacto</span>
+        <h2 class="section-title">¿Listo para llevar la higiene<br>a <em>otro nivel</em>?</h2>
+        <p class="section-subtitle">
+          Escríbenos y un asesor te atenderá en minutos. Estamos aquí para resolver
+          todas tus preguntas y encontrar la mejor opción para ti o tu negocio.
+        </p>
+        <div class="contact-buttons">
+          <a href="https://wa.me/573000000000?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Cleanflex" class="btn btn-whatsapp btn-lg" target="_blank" rel="noopener">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Escríbenos por WhatsApp
+          </a>
+          <a href="mailto:info@cleanflex.co" class="btn btn-outline btn-lg">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Enviar Email
+          </a>
+        </div>
+        <div class="contact-info">
+          <div class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Colombia</span>
+          </div>
+          <div class="contact-item">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>info@cleanflex.co</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-clean">Clean</span><span class="logo-flex">flex</span>
+          <p>Higiene en movimiento.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#origen">Origen</a>
+          <a href="#producto">Producto</a>
+          <a href="#planes">Planes</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Cleanflex. Todos los derechos reservados. Hecho con orgullo en Colombia.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp floating button -->
+  <a href="https://wa.me/573000000000?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20Cleanflex" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
